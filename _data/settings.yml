@@ -12,9 +12,9 @@ address: 125/A, CA Commercial Area, California, USA
 copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
 
 menu:
-  - { name: About, link: "/about" }
+  - { name: Home, link: "/" }
   - { name: Blog, link: "/blog" }
-  - { name: Portfolio, link: "/portfolio" }
+  - { name: About, link: "/about" }
   - { name: Contact, link: "/contact" }
 
 #-------------------------------
@@ -36,7 +36,10 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Christoher <br> UX designer
+  hero-title: Welcome to <br> Kross Kids Blog <br> Playground
+  hero-subtitle: Create, read, and share bright ideas with friends. Pick a story and start exploring!
+  hero-cta-text: Explore the blog
+  hero-cta-link: "/blog"
 
 social:
   - { icon: "ti-facebook", link: "#" }

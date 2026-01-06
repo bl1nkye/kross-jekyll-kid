@@ -4,6 +4,14 @@
     <div class="row">
       <div class="col-lg-11 mx-auto">
         <h1 class="text-white font-tertiary">{{ site.data.settings.hero.hero-title }}</h1>
+        {% if site.data.settings.hero.hero-subtitle %}
+        <p class="hero-subtitle text-white mb-4">{{ site.data.settings.hero.hero-subtitle }}</p>
+        {% endif %}
+        {% if site.data.settings.hero.hero-cta-text %}
+        <a class="btn btn-light hero-cta" href="{{ site.data.settings.hero.hero-cta-link | default: '/blog' | relative_url }}">
+          {{ site.data.settings.hero.hero-cta-text }}
+        </a>
+        {% endif %}
       </div>
     </div>
   </div>

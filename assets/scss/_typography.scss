@@ -1,22 +1,22 @@
 /*  typography */
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:700|Roboto:400');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap');
 
 body {
-  line-height: 1.2;
+  line-height: 1.6;
   font-family: $primary-font;
   -webkit-font-smoothing: antialiased;
-  font-size: 15px;
+  font-size: 16px;
   color: $text-color;
 }
 
 p, .paragraph {
   font-weight: 400;
   color: $text-color;
-  font-size: 15px;
-  line-height: 1.8;
+  font-size: 16px;
+  line-height: 1.7;
   font-family: $primary-font;
   &-lg{
-    font-size: 22px;
+    font-size: 20px;
   }
 }
 
@@ -27,25 +27,25 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1, .h1{
-  font-size: 80px;
+  font-size: 72px;
   @include desktop {
-    font-size: 65px;
+    font-size: 60px;
   }
 }
 
 h2, .h2{
-  font-size: 60px;
+  font-size: 48px;
   @include desktop {
-    font-size: 50px;
+    font-size: 42px;
   }
 }
 
 h3, .h3{
-  font-size: 40px;
+  font-size: 34px;
 }
 
 h4, .h4{
-  font-size: 22px;
+  font-size: 24px;
 }
 
 h5, .h5{
