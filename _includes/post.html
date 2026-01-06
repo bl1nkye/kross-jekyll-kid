@@ -1,7 +1,14 @@
 <div class="col-lg-4 col-sm-6 mb-4">
   <article class="card shadow blog-card">
-    <img class="rounded card-img-top" src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+    <img class="rounded card-img-top blog-card-cover" src="{{ post.image | relative_url }}" alt="{{ post.title }}">
     <div class="card-body">
+      <p class="post-meta">
+        <span class="post-meta-label">Author:</span>
+        <span class="text-primary font-weight-bold">{{ post.author }}</span>
+        <span class="post-meta-separator">•</span>
+        <span class="post-meta-label">Published:</span>
+        {{ post.date | date: '%b %d, %Y' }}
+      </p>
       <h4 class="card-title">
         <a class="text-dark" href="{{ post.url | relative_url }}">{{ post.title }}</a>
       </h4>
