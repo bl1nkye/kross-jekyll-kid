@@ -1,6 +1,8 @@
 .hero-area {
   padding: 300px 0 200px;
   position: relative;
+  background: radial-gradient(circle at top, rgba(255, 255, 255, 0.2), transparent 55%),
+    linear-gradient(135deg, lighten($primary-color, 8%), $primary-color);
   @include tablet {
     padding: 250px 0 150px;
     overflow: hidden;
@@ -8,6 +10,21 @@
   h1{
     position: relative;
     z-index: 2;
+  }
+
+  .hero-subtitle {
+    font-size: 20px;
+    line-height: 1.6;
+    max-width: 520px;
+  }
+
+  .hero-cta {
+    background: $white;
+    color: $primary-color;
+    border-radius: 999px;
+    font-size: 18px;
+    padding: 12px 32px;
+    font-weight: 700;
   }
 }
 

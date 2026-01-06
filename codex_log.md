@@ -1,0 +1,5 @@
+# Codex Log
+
+- Refocused the homepage to feature the blog playground as the main content.
+- Updated the visual theme with playful colors, rounded cards, and kid-friendly typography.
+- Added a hero call-to-action and supporting copy to guide readers to the blog.
